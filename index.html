@@ -12,6 +12,9 @@
       --acento: #0b6ea8;
       --texto: #1f2933;
       --texto-suave: #5c6b7a;
+      --grad1: #0b6ea8;
+      --grad2: #8a2be2;
+      --grad3: #ff6ec7;
     }
 
     * {
@@ -56,8 +59,11 @@
 
     h2 {
       font-size: 1.8rem;
-      font-weight: 600;
-      color: var(--texto);
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--grad1), var(--grad2), var(--grad3));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       margin-bottom: 1.5rem;
     }
 
