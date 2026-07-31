@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página - Evaluación 4</title>
+  <style>
+    :root {
+      --fondo: #1e1e2e;
+      --tarjeta: #2a2a3d;
+      --acento: #f5c518;
+      --texto: #e8e8f0;
+      --texto-suave: #b3b3c6;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e1e2e 0%, #3a3a5c 100%);
+      color: var(--texto);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    .tarjeta {
+      background: var(--tarjeta);
+      border: 1px solid rgba(245, 197, 24, 0.4);
+      border-radius: 1.25rem;
+      box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.45);
+      max-width: 42rem;
+      width: 100%;
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+
+    .avatar {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: var(--acento);
+      letter-spacing: 0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--texto-suave);
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--texto);
+    }
+
+    .versos {
+      font-style: italic;
+      color: var(--texto-suave);
+      margin-top: 1.25rem;
+      border-top: 1px dashed rgba(245, 197, 24, 0.3);
+      padding-top: 1.25rem;
+    }
+
+    .versos p {
+      margin-bottom: 0.4rem;
+    }
+
+    footer {
+      margin-top: 1.75rem;
+      font-size: 0.85rem;
+      color: var(--texto-suave);
+    }
+  </style>
+</head>
+<body>
+  <main class="tarjeta">
+    <div class="avatar">&#128075;</div>
+    <h1>JOSE LUIS CHIPANA MAYTA</h1>
+    <h2>Última evaluación del módulo - Tarea 4</h2>
+    <p>
+      Página creada con HTML y publicada gracias a GitHub Pages,
+      sin necesidad de instalar nada en la máquina.
+    </p>
+    <div class="versos">
+      <p>Puedo escribir los versos más tristes esta noche.</p>
+      <p>Escribir, por ejemplo: "La noche está estrellada,</p>
+      <p>y tiritan, azules, los astros, a lo lejos".</p>
+    </div>
+    <footer>Hecho con &#128154; en el módulo de la nube</footer>
+  </main>
+</body>
+</html>
