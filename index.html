@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página - Evaluación 4</title>
+  <title>Módulo 4 GITHUB POSGRADO UPEA</title>
   <style>
     :root {
-      --fondo: #1e1e2e;
-      --tarjeta: #2a2a3d;
-      --acento: #f5c518;
-      --texto: #e8e8f0;
-      --texto-suave: #b3b3c6;
+      --fondo1: #a8d8f0;
+      --fondo2: #eaf6ff;
+      --tarjeta: #ffffff;
+      --acento: #0b6ea8;
+      --texto: #1f2933;
+      --texto-suave: #5c6b7a;
     }
 
     * {
@@ -21,7 +22,7 @@
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #1e1e2e 0%, #3a3a5c 100%);
+      background: linear-gradient(135deg, var(--fondo1) 0%, var(--fondo2) 100%);
       color: var(--texto);
       min-height: 100vh;
       display: flex;
@@ -32,9 +33,9 @@
 
     .tarjeta {
       background: var(--tarjeta);
-      border: 1px solid rgba(245, 197, 24, 0.4);
+      border: 1px solid rgba(11, 110, 168, 0.35);
       border-radius: 1.25rem;
-      box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.45);
+      box-shadow: 0 1rem 2.5rem rgba(11, 110, 168, 0.25);
       max-width: 42rem;
       width: 100%;
       padding: 2.5rem 2rem;
@@ -70,7 +71,7 @@
       font-style: italic;
       color: var(--texto-suave);
       margin-top: 1.25rem;
-      border-top: 1px dashed rgba(245, 197, 24, 0.3);
+      border-top: 1px dashed rgba(11, 110, 168, 0.3);
       padding-top: 1.25rem;
     }
 
@@ -78,8 +79,15 @@
       margin-bottom: 0.4rem;
     }
 
+    .docente {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--acento);
+    }
+
     footer {
-      margin-top: 1.75rem;
+      margin-top: 0.75rem;
       font-size: 0.85rem;
       color: var(--texto-suave);
     }
@@ -88,8 +96,8 @@
 <body>
   <main class="tarjeta">
     <div class="avatar">&#128075;</div>
-    <h1>JOSE LUIS CHIPANA MAYTA</h1>
-    <h2>Última evaluación del módulo - Tarea 4</h2>
+    <h1>Módulo 4 GITHUB POSGRADO UPEA</h1>
+    <h2>JOSE LUIS CHIPANA MAYTA</h2>
     <p>
       Página creada con HTML y publicada gracias a GitHub Pages,
       sin necesidad de instalar nada en la máquina.
@@ -99,6 +107,7 @@
       <p>Escribir, por ejemplo: "La noche está estrellada,</p>
       <p>y tiritan, azules, los astros, a lo lejos".</p>
     </div>
+    <div class="docente">Docente: Dra. Marisol Téllez R.</div>
     <footer>Hecho con &#128154; en el módulo de la nube</footer>
   </main>
 </body>
